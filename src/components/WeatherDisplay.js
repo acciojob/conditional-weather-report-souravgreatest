@@ -9,7 +9,7 @@ const WeatherDisplay = ({ data }) => {
         <p>Temperature: {data.temperature}</p>
       </span>
 
-      <p>{data.conditions}</p>
+      <p>Conditions: {data.conditions}</p>
     </div>
   );
 };
